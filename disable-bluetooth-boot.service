@@ -1,0 +1,11 @@
+[Unit]
+Description=Disable Bluetooth on Boot
+After=sysinit.target local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/rfkill block bluetooth
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,5 @@
+Startup Configuration	best.ellie.StartupConfiguration	1.0.5	stable	flathub	system
+OBS Studio	com.obsproject.Studio	32.1.1	stable	fedora	system
+Steam	com.valvesoftware.Steam	1.0.0.87	stable	flathub	system
+Vesktop	dev.vencord.Vesktop	1.6.8	stable	flathub	system
+Sober	org.vinegarhq.Sober	1.8.0	stable	flathub	system

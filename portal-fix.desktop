@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PipeWire Desktop Portal Fix
+Comment=Forces xdg-desktop-portal initialization for Hyprland screen sharing
+Exec=/home/mildew/.portal-fix.sh
+Icon=video-display
+Terminal=false
+StartupNotify=false
+Categories=Utility;System;
+X-GNOME-Autostart-enabled=true

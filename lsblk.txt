@@ -1,0 +1,18 @@
+NAME        FSTYPE  FSVER            LABEL       UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+loop0       iso9660 Joliet Extension Rescuezilla 2026-05-16-17-35-20-00                              
+├─loop0p1                                                                                            
+├─loop0p2   vfat    FAT12                        AD0B-E75A                                           
+└─loop0p3                                                                                            
+sda                                                                                                  
+├─sda1      exfat   1.0              ШтаСиСјебо  4E21-0000                             175.3G    24% /run/media/mildew/ШтаСиСјебо
+└─sda2      vfat    FAT16            VTOYEFI     1B43-8741                                           
+zram0       swap    1                zram0       b7f74d77-9ac7-4a29-b606-cc62f04ac96d                [SWAP]
+nvme0n1                                                                                              
+├─nvme0n1p1 vfat    FAT32                        2421-7899                             144.4M    26% /boot/efi
+├─nvme0n1p2                                                                                          
+├─nvme0n1p3 ntfs                                 C47223DC7223D24A                                    
+├─nvme0n1p4 ntfs                     SharedData  E06CF5626CF5343E                                    
+├─nvme0n1p5 ntfs                                 662CC44F2CC41C45                                    
+├─nvme0n1p6 ext4    1.0                          2e100917-eb4d-4643-84b3-6d7a12dfc326    1.3G    25% /boot
+└─nvme0n1p7 btrfs                    fedora      0d94c44a-5b4a-4ad7-af4d-8250d2aaa2e1  211.2G    23% /home
+                                                                                                     /

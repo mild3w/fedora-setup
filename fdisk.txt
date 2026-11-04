@@ -1,0 +1,50 @@
+Disk /dev/nvme0n1: 476.94 GiB, 512110190592 bytes, 1000215216 sectors
+Disk model: Micron MTFDHBA512TDV                    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 87AC686B-D33A-47D3-994E-53962AD32E66
+
+Device             Start        End   Sectors   Size Type
+/dev/nvme0n1p1      2048     411647    409600   200M EFI System
+/dev/nvme0n1p2    411648     444415     32768    16M Microsoft reserved
+/dev/nvme0n1p3    444416  369303551 368859136 175.9G Microsoft basic data
+/dev/nvme0n1p4 369303552  411246591  41943040    20G Microsoft basic data
+/dev/nvme0n1p5 998447104 1000212479   1765376   862M Windows recovery environment
+/dev/nvme0n1p6 411246592  415440895   4194304     2G Linux filesystem
+/dev/nvme0n1p7 415440896  998447103 583006208   278G Linux filesystem
+
+Partition table entries are not in disk order.
+
+
+Disk /dev/zram0: 8 GiB, 8589934592 bytes, 2097152 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/sda: 230.94 GiB, 247967252480 bytes, 484311040 sectors
+Disk model: DataTraveler 3.0
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xa7c63f09
+
+Device     Boot     Start       End   Sectors   Size Id Type
+/dev/sda1  *         2048 484245503 484243456 230.9G  7 HPFS/NTFS/exFAT
+/dev/sda2       484245504 484311039     65536    32M ef EFI (FAT-12/16/32)
+
+
+Disk /dev/loop0: 1.6 GiB, 1722134528 bytes, 3363544 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: D1CEBB38-FD1F-4754-BF4D-66DAE16C74B0
+
+Device       Start     End Sectors  Size Type
+/dev/loop0p1    64     547     484  242K Microsoft basic data
+/dev/loop0p2   548   12835   12288    6M EFI System
+/dev/loop0p3 12836 3363479 3350644  1.6G Microsoft basic data
